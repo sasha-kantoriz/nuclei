@@ -1,4 +1,6 @@
-module github.com/projectdiscovery/nuclei/v3
+module github.com/sasha-kantoriz/nuclei/v3
+
+replace github.com/projectdiscovery/clistats v0.0.20 => github.com/sasha-kantoriz/clistats v0.0.0-20240224045826-3472578cb3af
 
 go 1.21
 
@@ -84,6 +86,7 @@ require (
 	github.com/projectdiscovery/httpx v1.3.8
 	github.com/projectdiscovery/mapcidr v1.1.16
 	github.com/projectdiscovery/n3iwf v0.0.0-20230523120440-b8cd232ff1f5
+	github.com/projectdiscovery/nuclei/v3 v3.1.10
 	github.com/projectdiscovery/ratelimit v0.0.26
 	github.com/projectdiscovery/rdap v0.9.1-0.20221108103045-9865884d1917
 	github.com/projectdiscovery/sarif v0.0.1
@@ -192,7 +195,6 @@ require (
 	github.com/shoenig/go-m1cpu v0.1.6 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/skeema/knownhosts v1.2.1 // indirect
-	github.com/smartystreets/assertions v1.0.0 // indirect
 	github.com/tidwall/btree v1.7.0 // indirect
 	github.com/tidwall/buntdb v1.3.0 // indirect
 	github.com/tidwall/gjson v1.17.0 // indirect
