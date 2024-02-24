@@ -1,5 +1,7 @@
 module github.com/projectdiscovery/nuclei/v3
 
+replace github.com/projectdiscovery/nuclei/v3 => github.com/sasha-kantoriz/nuclei/v3 v3.0.0-20240224050139-4a1f95d84b4e
+
 replace github.com/projectdiscovery/clistats => github.com/sasha-kantoriz/clistats v0.0.0-20240224045826-3472578cb3af
 
 go 1.21
