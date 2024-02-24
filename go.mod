@@ -1,5 +1,7 @@
 module github.com/projectdiscovery/nuclei/v3
 
+replace github.com/projectdiscovery/clistats => github.com/sasha-kantoriz/clistats v0.0.0-20240224045826-3472578cb3af
+
 go 1.21
 
 require (
